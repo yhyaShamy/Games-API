@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 13px;
+}
+
+.dark-blue-bg {
+  background-color: #364b80;
+}
+
+.bg-costimise-dark {
+  background-color: hsl(0, 0%, 25%, 0.9);
+}
+
+.details-bg {
+  background-color: #26282a;
+}
+
+section ul {
+  border-top: 0.2rem hsl(0, 0%, 25%, 0.9) solid;
+}
+
+section .card {
+  border: 0.2rem hsl(0, 0%, 25%, 0.9) solid;
+  cursor: pointer;
+}
+
+.big-z {
+  z-index: 999;
+}
+
+a {
+  cursor: pointer;
+}
+
+.catogary-list-link {
+  cursor: pointer;
+  transition: color 0.4s;
+}
+
+.bg-white-blue {
+  background-color: hsl(216, 98%, 70%);
+}
+
+.catogary-list-link:hover {
+  color: hsl(216, 98%, 70%);
+}
+
+header i {
+  cursor: pointer;
+}
+
+.active {
+  color: hsl(216, 98%, 70%);
+}
